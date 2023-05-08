@@ -88,7 +88,7 @@ def FazerLogin():
     usuario = buscar_usuario(email, senha)
 
     if usuario:
-        print("Bem-vindo,", usuario.get_nome())
+        print("Bem-vindo,", usuario.get_email())
     else:
         print("E-mail ou senha incorretos.")
 
