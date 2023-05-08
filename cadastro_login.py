@@ -5,7 +5,6 @@ import string, random, re
 
 def validar_email(email):
     # Verifica se o email fornecido está no formato correto.
-
     if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
         return False
     return True
