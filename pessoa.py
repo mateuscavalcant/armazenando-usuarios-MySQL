@@ -21,5 +21,4 @@ class Pessoa:
     return f"Nome: {self.__nome}\nEmail: {self.__email}\nSenha: {self.__senha}\nIdade: {self.__idade}"
 
 
-
 cadastros = {}
