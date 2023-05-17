@@ -18,7 +18,8 @@ class Pessoa:
         return  self.__idade
 
     def __str__(self):
-        pass
+    return f"Nome: {self.__nome}\nEmail: {self.__email}\nSenha: {self.__senha}\nIdade: {self.__idade}"
+
 
 
 cadastros = {}
