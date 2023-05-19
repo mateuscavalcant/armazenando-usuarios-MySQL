@@ -7,6 +7,6 @@ Este é um programa de registro de usuários em Python que utiliza um banco de d
 - Login de um usuário existente no banco de dados através de seu e-mail e senha.
 - Exclusão de uma conta de usuário existente no banco de dados através do e-mail.
 
-# Utilização
+## Utilização
 Para usar o programa, você precisará de um servidor MySQL instalado e configurado, bem como o módulo Python "mysql-connector-python" instalado em sua máquina.
 
